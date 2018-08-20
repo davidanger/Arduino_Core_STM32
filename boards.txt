@@ -482,6 +482,22 @@ GenF103.menu.flash.CB=128k
 GenF103.menu.flash.CB.upload.maximum_size=131072
 GenF103.menu.flash.CB.build.ldscript=ldscript_cb.ld
 
+# BLUEBOX_F051C board
+# Support: Serial1 (USART1 on TX(PA9), RX(PA10)) and Serial2 (USART2 on A1(D22/PA2), A6(D27/PA3))
+GenF103.menu.pnum.BLUEBOX_F051C=BlueBox F051C8
+GenF103.menu.pnum.BLUEBOX_F051C.upload.maximum_data_size=8192
+GenF103.menu.pnum.BLUEBOX_F051C.upload.maximum_size=65536
+GenF103.menu.pnum.BLUEBOX_F051C.build.mcu=cortex-m0
+GenF103.menu.pnum.BLUEBOX_F051C.build.board=BLUEBOX_F103C8
+GenF103.menu.pnum.BLUEBOX_F051C.build.series=STM32F0xx
+GenF103.menu.pnum.BLUEBOX_F051C.build.product_line=STM32F051x8
+GenF103.menu.pnum.BLUEBOX_F051C.build.variant=BLUEBOX_F051C8
+GenF103.menu.pnum.BLUEBOX_F051C.build.cmsis_lib_gcc=arm_cortexM0l_math
+
+GenF103.menu.flash.C8=64k (default)
+GenF103.menu.flash.C8.upload.maximum_size=65536
+GenF103.menu.flash.C8.build.ldscript=ldscript.ld
+
 # Upload menu
 GenF103.menu.upload_method.STLinkMethod=STLink
 GenF103.menu.upload_method.STLinkMethod.upload.protocol=STLink
